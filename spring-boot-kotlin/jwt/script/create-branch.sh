@@ -5,7 +5,7 @@ GREEN="\033[1;32""m"
 YELLOW="\033[1;33""m"
 NC="\033[0m"
 
-CHECK_BRANCH="master"
+CHECK_BRANCH="main"
 
 # 현재 브랜치 확인
 echo "${GREEN} > check '$CHECK_BRANCH' branch${NC}"

@@ -9,7 +9,7 @@ NC="\033[0m"
 
 echo -e "${GREEN} > git pull...${NC}"
 
-git pull origin master
+git pull origin main
 
 echo -e "${GREEN} > done.${NC}"
 
@@ -23,6 +23,6 @@ echo -e "${GREEN} > done.${NC}"
 
 echo -e "${GREEN} > git push.. ${NC}"
 
-git push origin master
+git push origin main
 
 echo -e "${GREEN} > done.${NC}"
